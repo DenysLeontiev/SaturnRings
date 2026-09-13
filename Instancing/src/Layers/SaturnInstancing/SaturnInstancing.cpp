@@ -122,6 +122,7 @@ void SaturnInstancing::OnUpdate() {
     planetModel.Draw(planetShader);
 
     asteroidShader.use();
+    asteroidShader.setFloat("uTime", (float)glfwGetTime());
     asteroidShader.setMat4("view", view);
     asteroidShader.setMat4("projection", projection);
 
