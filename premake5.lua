@@ -20,7 +20,7 @@ project "Instancing"
         "Instancing/src/**.h",
         "Instancing/src/**.cpp",
         "Instancing/src/**.glsl",
-        "Instancing/resources/**.*"
+        "Instancing/resources/**"
     }
 
     includedirs {

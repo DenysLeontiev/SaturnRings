@@ -16,6 +16,7 @@
 # Intermediate and output files
 *.ilk
 *.obj
+!**/resources/**/*.obj
 *.pdb
 *.idb
 *.log
