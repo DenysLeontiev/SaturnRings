@@ -51,7 +51,7 @@ project "Instancing"
     }
 
     postbuildcommands {
-        '{COPY} "%{wks.location}/External/Assimp/bin/*.dll" "%{cfg.targetdir}"',
+        '{COPYFILE} "%{wks.location}/External/Assimp/bin/*.dll" "%{cfg.targetdir}"',
         '{COPYDIR} "%{wks.location}/Instancing/resources" "%{cfg.targetdir}/resources"'
     }
 

@@ -22,7 +22,7 @@
 *.log
 *.tlog
 *.recipe
-*.exe
+**/bin/**/*.exe
 *.exp
 
 # Visual Studio
